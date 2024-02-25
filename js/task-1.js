@@ -10,8 +10,3 @@ items.forEach((elem) => {
     console.log(`Category: ${title}`)
     console.log(`Elements: ${list}`)
 })
-
-
-
-
-
