@@ -12,6 +12,7 @@ const paragraf = document.querySelector(".color")
 btn.addEventListener("click", handle)
 
 function handle(event) {
-    paragraf.textContent = getRandomHexColor();
-    document.body.style.backgroundColor = getRandomHexColor();
+    const random = getRandomHexColor();
+    paragraf.textContent = random;
+    document.body.style.backgroundColor = random;
 }

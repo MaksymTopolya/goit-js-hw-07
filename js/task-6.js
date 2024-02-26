@@ -19,6 +19,8 @@ function createBox(event) {
         return
     }
 
+    deleteBox()
+
 
     let size = 30;
     for (let i = 0; i < amount; i++){

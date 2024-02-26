@@ -10,7 +10,7 @@ function handle(event){
 
     if (value === "") {
         title.textContent = "Anonymous"
-    } else (
+    } else {
         title.textContent = value
-    )
+    }
 }
